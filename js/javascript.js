@@ -59,21 +59,22 @@ var array =[ {
     "completed": true
   },]
  var html = "";
- for (var i =0; i<array.length;i++){
-         var dato = array[i];
-         var s = "<li>" +  dato.title + "</li>";
-           html += s;
+ for (var i =0; i<array.length;i++)
+ {
+
+        var dato = array[i];
+        var s = "<li>" +  dato.title + "</li>";
+        html += s;
   }
      document.getElementById("listas").innerHTML+=html;
 
-  var arrayDatos=[];  
-function masTareas() {
-  var elemento = document.getElementById('elemento').value;
+     var arrayDatos=[];  
+  function masTareas() {
+      var elemento = document.getElementById('elemento').value;
       array.push(new add(elemento));
       arrayDatos.push(elemento);
-               document.getElementById('elemento').value="";
-  document.getElementById('resultado').innerHTML = arrayDatos.reverse().join('<br>'); 
-  
+      document.getElementById('elemento').value="";
+      document.getElementById('resultado').innerHTML = arrayDatos.reverse().join('<br>');  
 }
  
 
@@ -82,6 +83,3 @@ function add(title){
 
 }
 
-function tachar(){
-
-}
