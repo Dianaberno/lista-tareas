@@ -73,10 +73,14 @@ function masTareas() {
       arrayDatos.push(elemento);
                document.getElementById('elemento').value="";
   document.getElementById('resultado').innerHTML = arrayDatos.reverse().join('<br>'); 
-  console.log(array);
-
+  
 }
  
+
+function add(title){
+  this.title=title;
+
+}
 
 function tachar(){
 
