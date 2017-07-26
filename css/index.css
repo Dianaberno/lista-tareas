@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+html,
+body {
+  background: linear-gradient(70deg,#c4efea,#b98fea);
+  margin: 0 0;
+  padding: 3 3;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: default;
+}
+
+h1 {
+  background: #c4efea;
+  padding: 20px 20px;
+  color:#1ba397;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  margin: 0 0;
+}
+
+input[type="text"] {
+  border: 1px solid #000;
+  outline: none;
+  background: #fff;
+  color: #333;
+  font-size: 20px;
+  width: 350px;
+}
+ul{
+  list-style: none;
+}
+
+  
